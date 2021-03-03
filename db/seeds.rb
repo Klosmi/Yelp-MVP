@@ -7,10 +7,9 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 Restaurant.destroy_all
 
-p bristol = Restaurant.new(name: "Epicure", category: "french")
-p london = Restaurant.new(name: "Red Lion", category: "english")
-p milano = Restaurant.new(name: "Pizza", category: "italian")
-p hamburg = Restaurant.new(name: "Hamburger", category: "german")
-p paris = Restaurant.new(name: "Resto", category: "french")
-
+bristol = Restaurant.new(name: "Epicure", category: "french")
+london = Restaurant.new(name: "Red Lion", category: "english")
+milano = Restaurant.new(name: "Pizza", category: "italian")
+hamburg = Restaurant.new(name: "Hamburger", category: "german")
+paris = Restaurant.new(name: "Resto", category: "french")
 
